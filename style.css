@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: #0f172a;
+  color: #e5e7eb;
+  scroll-behavior: smooth;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  background: #020617;
+  padding: 15px 0;
+  z-index: 1000;
+}
+
+nav{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2{
+  color: #38bdf8;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #e5e7eb;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  color: #38bdf8;
+}
+
+section{
+  padding: 80px 10%;
+}
+
+section h2{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.hero img{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid #38bdf8;
+  object-fit: cover;
+}
+
+.hero-text h1{
+  font-size: 40px;
+}
+
+.hero-text p{
+  margin: 15px 0;
+  max-width: 500px;
+  color: #cbd5f5;
+}
+
+.btn{
+  display: inline-block;
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: #020617;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.btn:hover{
+  background: #0ea5e9;
+  transform: translateY(-2px);
+  transition: 0.3s;
+}
+
+.skills-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.skill-card{
+  background: #020617;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #1e293b;
+  font-weight: bold;
+}
+
+.skill-card:hover{
+  transform: translateY(-5px);
+  border-color: #38bdf8;
+  transition: 0.3s;
+}
+
+.projects-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project-card{
+  background: #020617;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #1e293b;
+}
+
+.project-card:hover{
+  transform: translateY(-5px);
+  border-color: #38bdf8;
+  transition: 0.3s;
+}
+
+.project-card span{
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 4px 8px;
+  background: #38bdf8;
+  color: #020617;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+#contact p{
+  margin: 10px 0;
+}
+
+#contact a{
+  color: #38bdf8;
+  text-decoration: none;
+}
+footer{
+  background: #020617;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+@media(max-width: 768px){
+  .hero{
+    text-align: center;
+    justify-content: center;
+  }
+}
