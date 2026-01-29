@@ -6,7 +6,8 @@ This project is perfect for beginners who want to showcase their skills and proj
 ---
 
 ## 🚀 Live Preview
-👉 **Live Demo:** https://theabhisainii.github.io/portfolio  
+👉 **Live Demo:**https://theabhisainii.github.io/Personal-Portfolio/
+
 _(Enable GitHub Pages after upload)_
 
 ---
